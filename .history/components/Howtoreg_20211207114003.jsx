@@ -1,0 +1,29 @@
+import React from 'react'
+
+const Howtoreg = () => {
+  return (
+    <div className="flex flex-col md:flex-row md:p-16 howtoreg">
+      <div className="grid items-center justify-between bg-red-300 md:grid-cols-2 registerdoc">
+        <div className="regcontent">
+          <h1 className="text-2xl font-bold md:text-4xl">Sidee isku diiwaan gelin kartaa ?</h1>
+          <p>intaadan iska diiwaan gelin ka hor waxa aad u baahantahay in aad
+            soo buuxisid shuruudahan hoos ku xusan .</p>
+            <ol className="ml-4 list-decimal">
+              <li>Business Email</li>
+              <li>Passport / National ID Card</li>
+              <li>Phone Number / Marchent Account </li>
+              <li>Business Government Registration</li>
+            </ol>
+        </div>
+        <div className="regimage bg-b">
+          <img className="h-96" src="/images/registration.png" alt="" />
+        </div>
+        
+      </div>
+
+      
+    </div>
+  )
+}
+
+export default Howtoreg
