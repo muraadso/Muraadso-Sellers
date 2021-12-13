@@ -28,7 +28,7 @@ const Whyus = () => {
                     </div>
                     <div className="mb-4 text-xl text-center text-gray-800 cardbody">
                         ku xayaysiiso alaabtada
-                    dhamaan bogaga ay shirkadu ku leedahay baraha bulshada
+dhamaan bogaga ay shirkadu ku leedahay baraha bulshada
                     </div>
                     <div className="absolute flex items-center justify-center w-10 h-10 font-bold text-red-500 bg-white border-2 border-red-500 rounded-full md:left-36 -bottom-5 md:left-40 left-36 place-content-center card-number"> <h2>2</h2></div>
                 </div>
@@ -43,8 +43,8 @@ const Whyus = () => {
                     </div>
                     <div className="mb-4 text-xl text-center text-gray-800 cardbody">
                         Hubinta qualityga alaabta
-                        iyo shaqaale khibrad u leh
-                        qiimaynta iyo gaarsiinta alabtada macaamiishena 
+iyo shaqaale khibrad u leh
+qiimaynta iyo gaarsiinta alabtada macaamiishena 
                     </div>
                     <div className="absolute flex items-center justify-center w-10 h-10 font-bold text-red-500 bg-white border-2 border-red-500 rounded-full md:left-36 -bottom-5 md:left-40 left-36 place-content-center card-number"> <h2>3</h2></div>
                 </div>

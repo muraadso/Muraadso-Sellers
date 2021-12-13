@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
                 <div className="subform rounded bg-white p-4 flex md:flex-row  items-center md:space-x-4 space-y-4 flex-col md:w-full">
 
-                          <TextField required sx={{backgroundColor: 'white', width:'250px'}} id="standard-basic" label="Email-kaaga Geli" variant="standard" />
+                          <TextField sx={{backgroundColor: 'white', width:'250px'}} id="standard-basic" label="Email-kaaga Geli" variant="standard" />
                           <button className="text-white bg-red-500 rounded px-11 py-3">Subscribe</button>
                 </div>
                 

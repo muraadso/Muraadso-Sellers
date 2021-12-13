@@ -14,17 +14,17 @@ const Footer = () => {
     return (
         <> 
         <div className="subscribe items-center justify-center flex p-2 md:p-16 flex-col md:flex-row ">
-            <div className="subcontainer bg-red-400 md:w-3/4 w-full p-11 rounded shadow-xl items-center justify-center flex ">
+            <div className="subcontainer bg-red-500 md:w-3/4 p-11 rounded shadow-xl items-center justify-center flex ">
 
-            <div className="subcontent md:grid md:grid-cols-2 gap-x-4 space-y-4 ">
-                <div className="subtext flex md:text-2xl font-medium text-white items-center justify-center">
+            <div className="subcontent md:grid md:grid-cols-2 gap-x-4 md:p-0 ">
+                <div className="subtext flex text-2xl font-medium text-white items-center justify-center">
                     <h1> Fadlan Noo reeb Emailkaaga macmiil </h1>
 
                 </div>
-                <div className="subform rounded bg-white p-4 flex md:flex-row  items-center md:space-x-4 space-y-4 flex-col md:w-full">
+                <div className="subform rounded bg-white p-4 flex items-center space-x-4">
 
-                          <TextField required sx={{backgroundColor: 'white', width:'250px'}} id="standard-basic" label="Email-kaaga Geli" variant="standard" />
-                          <button className="text-white bg-red-500 rounded px-11 py-3">Subscribe</button>
+                          <TextField sx={{backgroundColor: 'white', width:'250px'}} id="standard-basic" label="Email-kaaga Geli" variant="standard" />
+                          <button className="text-white bg-red-600 rounded px-11 py-3">Subscribe</button>
                 </div>
                 
             </div>

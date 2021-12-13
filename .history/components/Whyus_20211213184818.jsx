@@ -28,7 +28,7 @@ const Whyus = () => {
                     </div>
                     <div className="mb-4 text-xl text-center text-gray-800 cardbody">
                         ku xayaysiiso alaabtada
-                    dhamaan bogaga ay shirkadu ku leedahay baraha bulshada
+dhamaan bogaga ay shirkadu ku leedahay baraha bulshada
                     </div>
                     <div className="absolute flex items-center justify-center w-10 h-10 font-bold text-red-500 bg-white border-2 border-red-500 rounded-full md:left-36 -bottom-5 md:left-40 left-36 place-content-center card-number"> <h2>2</h2></div>
                 </div>
@@ -42,9 +42,8 @@ const Whyus = () => {
                         
                     </div>
                     <div className="mb-4 text-xl text-center text-gray-800 cardbody">
-                        Hubinta qualityga alaabta
-                        iyo shaqaale khibrad u leh
-                        qiimaynta iyo gaarsiinta alabtada macaamiishena 
+                        ku xayaysiiso alaabtada
+dhamaan bogaga ay shirkadu ku leedahay baraha bulshada
                     </div>
                     <div className="absolute flex items-center justify-center w-10 h-10 font-bold text-red-500 bg-white border-2 border-red-500 rounded-full md:left-36 -bottom-5 md:left-40 left-36 place-content-center card-number"> <h2>3</h2></div>
                 </div>
@@ -56,7 +55,7 @@ const Whyus = () => {
                         
                     </div>
                     <div className="mb-4 text-xl text-center text-gray-800 cardbody">
-                       amaanada iyo helista faa’idaada sida ugu dhakhsiiyaha badan 
+                        Macmiil iska diiwaan geli adeega, 24h kadib waxad helaysa fariin ah in lagu aqbalay
                     </div>
                     <div className="absolute flex items-center justify-center w-10 h-10 font-bold text-red-500 bg-white border-2 border-red-500 rounded-full md:left-36 -bottom-5 md:left-40 left-36 place-content-center card-number"> <h2>4</h2></div>
                 </div>

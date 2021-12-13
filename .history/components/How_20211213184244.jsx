@@ -25,8 +25,8 @@ export const How = () => {
                     </div>
                     <div className="mb-4 text-xl text-center text-gray-800 cardbody">
                         Kadib marka lagu aqbalo
-                        waxad so gelin kartaa
-                        dhamaan alaabta aad rabtid in aad iibisid
+waxad so gelin kartaa
+dhamaan alaabta aad rabtid in aad iibisid
                     </div>
                     <div className="absolute flex items-center justify-center w-10 h-10 font-bold text-red-500 bg-white border-2 border-red-500 rounded-full -bottom-5 md:left-40 left-36 place-content-center card-number"> <h2>2</h2></div>
                 </div>
@@ -41,8 +41,8 @@ export const How = () => {
                     </div>
                     <div className="mb-4 text-xl text-center text-gray-800 cardbody">
                         24h gudahood aya lagu
-                        hubinayaa alaabta
-                        aad soo diiwaan gelisay 
+hubinayaa alaabta
+aad soo diiwaan gelisay 
                     </div>
                     <div className="absolute flex items-center justify-center w-10 h-10 font-bold text-red-500 bg-white border-2 border-red-500 rounded-full -bottom-5 md:left-40 left-36 place-content-center card-number"> <h2>3</h2></div>
                 </div>
@@ -55,8 +55,8 @@ export const How = () => {
                     </div>
                     <div className="mb-4 text-xl text-center text-gray-800 cardbody">
                         Hubinta kadib alaabtadu
-                        waxay kaso muuqanaysa
-                        bogga Muraadso.com 
+waxay kaso muuqanaysa
+bogga Muraadso.com 
                     </div>
                     <div className="absolute flex items-center justify-center w-10 h-10 font-bold text-red-500 bg-white border-2 border-red-500 rounded-full -bottom-5 md:left-40 left-36 place-content-center card-number"> <h2>4</h2></div>
                 </div>
