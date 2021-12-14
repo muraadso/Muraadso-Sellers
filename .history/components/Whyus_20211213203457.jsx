@@ -1,3 +1,14 @@
+import { gsap } from "gsap";
+
+
+
+const onEnter = ({ currentTarget }) => {
+  gsap.to(currentTarget, { transform:" scale(1)" });
+};
+
+const onLeave = ({ currentTarget }) => {
+  gsap.to(currentTarget, { transform: "scale(0.8)" });
+};
 
 
 const Whyus = () => {

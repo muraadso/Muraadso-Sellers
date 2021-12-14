@@ -1,3 +1,11 @@
+import { gsap } from "gsap";
+
+
+
+const onEnter = ({ currentTarget }) => {
+  gsap.to(currentTarget, { transform:" scale(1)" });
+};
+
 
 
 const Whyus = () => {
@@ -7,7 +15,9 @@ const Whyus = () => {
         <div
        
         className="flex flex-col items-center justify-center mt-32 mb-24 how md:gap-y-4 gap-y-11">
-            <div className="flex flex-col items-center justify-center howheader">
+            <div 
+             
+            className="flex flex-col items-center justify-center howheader">
             <h2 className="text-4xl font-bold text-center">Nagu Dooro Macmiil</h2>
             <p className="mt-2 text-lg text-center text-gray-600 md:w-1/2">
                 Adeegan ay kuu keentay shirkadda MURAADSO waxa uu kaa caawinaya 
@@ -21,7 +31,9 @@ const Whyus = () => {
                         <img className="h-24"  src="./images/audiance.png" alt="register" />
                         
                     </div>
-                    <div className="mb-4 text-xl text-center text-gray-800 cardbody">
+                    <div 
+                    onMouseEnter={onEnter} 
+                    className="mb-4 text-xl text-center text-gray-800 cardbody">
                         Gaar Macaamiil ka badan adigoo isticmaalaya adeegan iyo dhamaan adeegyada muraadso
                     </div>
                     <div className="absolute flex items-center justify-center w-10 h-10 font-bold text-red-500 bg-white border-2 border-red-500 rounded-full md:left-36 -bottom-5 md:left-40 left-36 place-content-center card-number"> <h2>1</h2></div>

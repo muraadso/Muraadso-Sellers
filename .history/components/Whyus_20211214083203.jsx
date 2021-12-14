@@ -1,3 +1,13 @@
+import { gsap } from "gsap";
+
+
+const onEnter = ({ currentTarget }) => {
+  gsap.to(currentTarget, { transform:" scale(1.05)" });
+};
+
+const onLeave = ({ currentTarget }) => {
+  gsap.to(currentTarget, { transform: "scale(1)" });
+};
 
 
 const Whyus = () => {
@@ -8,7 +18,7 @@ const Whyus = () => {
        
         className="flex flex-col items-center justify-center mt-32 mb-24 how md:gap-y-4 gap-y-11">
             <div className="flex flex-col items-center justify-center howheader">
-            <h2 className="text-4xl font-bold text-center">Nagu Dooro Macmiil</h2>
+            <h2 style={{fontFamily: 'Lato, sanserif'}} className="text-4xl font-bold text-center">Nagu Dooro Macmiil</h2>
             <p className="mt-2 text-lg text-center text-gray-600 md:w-1/2">
                 Adeegan ay kuu keentay shirkadda MURAADSO waxa uu kaa caawinaya 
                 in aad ganacsigaaga kor u qaadid gaartidna macaamiil aad u badan 
@@ -16,7 +26,9 @@ const Whyus = () => {
             </div>
             <div className="h-full md:p-16 md:gap-4 gap-72 md:grid-cols-4 md:grid howsteps">
 
-                <div className="relative max-h-full p-6 bg-white border-4 border-red-400 rounded how-card ">
+                <div 
+                onMouseEnter={onEnter} onMouseLeave={onLeave}
+                className="relative max-h-full p-6 bg-white border-4 border-red-400 rounded how-card ">
                     <div className="flex items-center justify-center my-4 card-icon ">
                         <img className="h-24"  src="./images/audiance.png" alt="register" />
                         

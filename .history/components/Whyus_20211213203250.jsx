@@ -1,3 +1,14 @@
+import { gsap } from "gsap";
+
+
+
+const onEnter = ({ currentTarget }) => {
+  gsap.to(currentTarget, { transform:" scale(1)" });
+};
+
+const onLeave = ({ currentTarget }) => {
+  gsap.to(currentTarget, { transform: "scale(0.8)" });
+};
 
 
 const Whyus = () => {
@@ -7,7 +18,9 @@ const Whyus = () => {
         <div
        
         className="flex flex-col items-center justify-center mt-32 mb-24 how md:gap-y-4 gap-y-11">
-            <div className="flex flex-col items-center justify-center howheader">
+            <div 
+             onMouseEnter={onEnter} onMouseLeave={onLeave}
+            className="flex flex-col items-center justify-center howheader">
             <h2 className="text-4xl font-bold text-center">Nagu Dooro Macmiil</h2>
             <p className="mt-2 text-lg text-center text-gray-600 md:w-1/2">
                 Adeegan ay kuu keentay shirkadda MURAADSO waxa uu kaa caawinaya 

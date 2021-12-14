@@ -1,3 +1,14 @@
+import { gsap } from "gsap";
+
+
+
+const onEnter = ({ currentTarget }) => {
+  gsap.to(currentTarget, { transform:" scale(1.05)" });
+};
+
+const onLeave = ({ currentTarget }) => {
+  gsap.to(currentTarget, { transform: "scale(1)" });
+};
 
 
 const Whyus = () => {
@@ -16,7 +27,9 @@ const Whyus = () => {
             </div>
             <div className="h-full md:p-16 md:gap-4 gap-72 md:grid-cols-4 md:grid howsteps">
 
-                <div className="relative max-h-full p-6 bg-white border-4 border-red-400 rounded how-card ">
+                <div 
+                onMouseEnter={onEnter} onMouseLeave={onLeave}
+                className="relative max-h-full p-6 bg-white border-4 border-red-400 rounded how-card ">
                     <div className="flex items-center justify-center my-4 card-icon ">
                         <img className="h-24"  src="./images/audiance.png" alt="register" />
                         
