@@ -6,7 +6,7 @@ const Hero = () => {
                     <h1 className="my-5 text-3xl font-bold text-gray-800 capitalize md:font-bold md:text-gray-800 md:capitalize lg:text-6xl">sidee ugu iibin krtaa <br /> alaabtaada <span  className="text-red-600 md:text-red-600">muraadso</span></h1>
                     
                     <p className="text-gray-700 md:text-left"> 
-                    Whether you’ve already got an established e-commerce business , a great idea for a new product, or you just have a passion for selling, here’s how to take that next step with Muraadso
+                    
                      </p>
                 </div> 
 

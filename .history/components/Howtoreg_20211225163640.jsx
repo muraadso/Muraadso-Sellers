@@ -22,9 +22,7 @@ const Howtoreg = () => {
         <div className="flex flex-row items-center justify-center check">
         </div>
         <div className="items-center justify-center text-center">
-        <button className="items-center justify-center px-24 py-3 text-sm text-white bg-red-600 md:text-center md:text-lg md:px-24 md:py-4 "> 
-        <a href="https://selleradmin.muraadso.com/login">Register Now</a>
-        </button>
+        <button className="items-center justify-center px-24 py-3 text-sm text-white bg-red-600 md:text-center md:text-lg md:px-24 md:py-4 "> Register Now</button>
         </div>
       </div>
 

@@ -31,6 +31,8 @@ const Reg = () => {
 
 
                   
+jdfbjeu 
+jhubeu ud            
         </div>
     )
 }

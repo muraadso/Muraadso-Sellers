@@ -31,6 +31,8 @@ const Reg = () => {
 
 
                   
+jkhenbdj j
+            
         </div>
     )
 }

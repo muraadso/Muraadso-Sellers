@@ -14,6 +14,7 @@ const Footer = () => {
     return (
         <> 
         <div className="subscribe items-center justify-center flex p-2 md:p-16 flex-col md:flex-row ">
+           
         </div>
 
         <div className="px-2 py-8 border md:px-24 md:py-16 bg-gray-50 space-y-7">
