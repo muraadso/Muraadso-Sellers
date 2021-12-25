@@ -26,7 +26,7 @@ export default function Home() {
       <Howtoreg />
       <Howtolist />
       <Whyus />
-      <Reg />
+//       <Reg />
     </div>
   )
 }
