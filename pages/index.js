@@ -26,7 +26,11 @@ export default function Home() {
       <Howtoreg />
       <Howtolist />
       <Whyus />
+<<<<<<< HEAD
       {/* <Reg /> */}
+=======
+//       <Reg />
+>>>>>>> 64bef3ae7b8ced9e1280a73d08039a180d25d518
     </div>
   )
 }
